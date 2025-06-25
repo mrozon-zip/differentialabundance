@@ -924,9 +924,10 @@ if (any(unlist(params[paste0(possible_gene_set_methods, '_run')]))){
                 cat("\n###### ", contrast_descriptions[i], "\n")
                 target_gsea_results <- read_metadata(target_gsea_tables[i])[,c(-2,-3)]
                 target_gsea_results <- round_dataframe_columns(target_gsea_results, digits=params$report_round_digits)
-                print( htmltools::tagList(datatable(target_gsea_results, caption = paste0("\nTarget (", contrasts$target[i], ")\n"), rownames = FALSE) ))
+                target_gsea_results <- subset(target_gsea_results, target_gsea_results[[6]] < 0.25)
                 ref_gsea_results <- read_metadata(reference_gsea_tables[i])[,c(-2,-3)]
                 ref_gsea_results <- round_dataframe_columns(ref_gsea_results, digits=params$report_round_digits)
+                ref_gsea_results <- subset(ref_gsea_results, ref_gsea_results[[6]] < 0.25)
                 print( htmltools::tagList(datatable(ref_gsea_results, caption = paste0("\nReference (", contrasts$reference[i], ")\n"), rownames = FALSE) ))
             }
             }
