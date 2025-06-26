@@ -96,10 +96,10 @@ params:
     differential_fc_column: NULL
     differential_pval_column: NULL
     differential_qval_column: NULL
-    differential_min_fold_change: NULL
+    differential_min_fold_change: 1.3
     differential_foldchanges_logged: NULL
     differential_max_pval: NULL
-    differential_max_qval: NULL
+    differential_max_qval: 0.05
     differential_palette_name: NULL
     differential_subset_to_contrast_samples: NULL
     deseq2_test: NULL
@@ -440,7 +440,15 @@ sig_differential <-
             down = differential_results[[x]][which(
                 differential_results[[x]][,params$differential_fc_column ] < log2(1/params$differential_min_fold_change) &
                 signif
-            ),]
+            ),],
+            merged = differential_results[[x]][which(
+              abs(differential_results[[x]][,params$differential_fc_column]) > log2(params$differential_min_fold_change) & signif
+            ),] %>% mutate(
+              Direction = ifelse(
+                get(params$differential_fc_column) > 0, "UP", "DOWN"
+              ),
+              Comparison = contrast_descriptions[[x]]
+            )
             )
         }
         )
@@ -883,21 +891,35 @@ for (i in 1:nrow(contrasts)){
 
         print(htmltools::tagList(p))
 
+        # Print merged differential genes table once
+        contrast_de_merged <- sig_differential[[pvt]][[i]][["merged"]]
+        cols_to_round <- c(params$differential_fc_column, params$differential_pval_column, params$differential_qval_column)
+        contrast_de_merged[, cols_to_round] <- signif(contrast_de_merged[, cols_to_round], 8)
+        contrast_de_merged <- round_dataframe_columns(contrast_de_merged, digits=params$report_round_digits)
+        colnames(contrast_de_merged) <- prettifyVariablename(colnames(contrast_de_merged))
+        if (nrow(contrast_de_merged) > 0) {
+          print(htmltools::tagList(datatable(
+            contrast_de_merged,
+            caption = paste("Merged differential genes in", contrast_descriptions[i]),
+            rownames = FALSE
+          )))
+        }
+
         ## ... then show tables of the up/ down genes
 
         for (dir in c('up', 'down')){
-        contrast_de <- sig_differential[[pvt]][[i]][[dir]]
-        cols_to_round <- c(params$differential_fc_column, params$differential_pval_column, params$differential_qval_column)
-        contrast_de[, cols_to_round] <- signif(contrast_de[, cols_to_round], 8)
+          contrast_de <- sig_differential[[pvt]][[i]][[dir]]
+          cols_to_round <- c(params$differential_fc_column, params$differential_pval_column, params$differential_qval_column)
+          contrast_de[, cols_to_round] <- signif(contrast_de[, cols_to_round], 8)
 
-        colnames(contrast_de) <- prettifyVariablename(colnames(contrast_de))
+          colnames(contrast_de) <- prettifyVariablename(colnames(contrast_de))
 
-        if (nrow(contrast_de) > 0){
-            contrast_de <- round_dataframe_columns(contrast_de, digits=params$report_round_digits)
-            print( htmltools::tagList(datatable(contrast_de, caption = paste('Differential genes', dir, 'in', contrast_descriptions[i], " (check", differential_files[[i]], "for more detail)"), rownames = FALSE) ))
-        }else{
-            cat(paste0("No significantly differential '", dir, "' genes.\n\n"))
-        }
+          if (nrow(contrast_de) > 0){
+              contrast_de <- round_dataframe_columns(contrast_de, digits=params$report_round_digits)
+              print( htmltools::tagList(datatable(contrast_de, caption = paste('Differential genes', dir, 'in', contrast_descriptions[i], " (check", differential_files[[i]], "for more detail)"), rownames = FALSE) ))
+          }else{
+              cat(paste0("No significantly differential '", dir, "' genes.\n\n"))
+          }
         }
     }
 }
@@ -920,15 +942,27 @@ if (any(unlist(params[paste0(possible_gene_set_methods, '_run')]))){
 
             reference_gsea_tables <- paste0(contrasts$id, ".", gmt_name, '.gsea_report_for_', contrasts$reference, '.tsv')
             target_gsea_tables <- paste0(contrasts$id, ".", gmt_name, '.gsea_report_for_', contrasts$target, '.tsv')
-            for (i in 1:nrow(contrasts)){
+            for (i in 1:nrow(contrasts)) {
                 cat("\n###### ", contrast_descriptions[i], "\n")
-                target_gsea_results <- read_metadata(target_gsea_tables[i])[,c(-2,-3)]
-                target_gsea_results <- round_dataframe_columns(target_gsea_results, digits=params$report_round_digits)
+                # Read and filter target results
+                target_gsea_results <- read_metadata(target_gsea_tables[i])[, c(-2, -3)]
                 target_gsea_results <- subset(target_gsea_results, target_gsea_results[[6]] < 0.25)
-                ref_gsea_results <- read_metadata(reference_gsea_tables[i])[,c(-2,-3)]
-                ref_gsea_results <- round_dataframe_columns(ref_gsea_results, digits=params$report_round_digits)
+                target_gsea_results <- round_dataframe_columns(target_gsea_results, digits = params$report_round_digits)
+                target_gsea_results$Condition <- contrasts$target[i]
+
+                # Read and filter reference results
+                ref_gsea_results <- read_metadata(reference_gsea_tables[i])[, c(-2, -3)]
                 ref_gsea_results <- subset(ref_gsea_results, ref_gsea_results[[6]] < 0.25)
-                print( htmltools::tagList(datatable(ref_gsea_results, caption = paste0("\nReference (", contrasts$reference[i], ")\n"), rownames = FALSE) ))
+                ref_gsea_results <- round_dataframe_columns(ref_gsea_results, digits = params$report_round_digits)
+                ref_gsea_results$Condition <- contrasts$reference[i]
+
+                # Combine and print
+                combined_gsea_results <- rbind(target_gsea_results, ref_gsea_results)
+                print(htmltools::tagList(datatable(
+                  combined_gsea_results,
+                  caption = paste0("GSEA results for ", contrast_descriptions[i]),
+                  rownames = FALSE
+                )))
             }
             }
 

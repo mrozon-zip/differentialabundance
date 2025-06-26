@@ -1,0 +1,30 @@
+Pathway_name	Pathway_code	DE_genes	Pathway_size	Fraction_DE	Padj	DE_genes_names
+REACTOME root term	REAC:0000000	513	7570	0.0678	0	513
+Signal Transduction	REAC:R-MMU-162582	146	1905	0.0766	0	146
+Metabolism	REAC:R-MMU-1430728	122	1576	0.0774	0	122
+Extracellular matrix organization	REAC:R-MMU-1474244	31	204	0.152	0	31
+Biological oxidations	REAC:R-MMU-211859	28	172	0.1628	0	28
+Hemostasis	REAC:R-MMU-109582	50	451	0.1109	0	50
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	REAC:R-MMU-381426	20	103	0.1942	0	20
+Transport of small molecules	REAC:R-MMU-382551	57	590	0.0966	0	57
+Post-translational protein phosphorylation	REAC:R-MMU-8957275	18	97	0.1856	1e-04	18
+CRMPs in Sema3A signaling	REAC:R-MMU-399956	7	14	0.5	3e-04	7
+Phase I - Functionalization of compounds	REAC:R-MMU-211945	15	82	0.1829	0.001	15
+Antagonism of Activin by Follistatin	REAC:R-MMU-2473224	4	4	1	0.0015	4
+Retinoid metabolism and transport	REAC:R-MMU-975634	10	38	0.2632	0.0016	10
+Metabolism of vitamins and cofactors	REAC:R-MMU-196854	21	155	0.1355	0.0018	21
+Muscle contraction	REAC:R-MMU-397014	19	134	0.1418	0.0026	19
+Metabolism of fat-soluble vitamins	REAC:R-MMU-6806667	10	42	0.2381	0.0042	10
+Ca2+ pathway	REAC:R-MMU-4086398	10	43	0.2326	0.0052	10
+Semaphorin interactions	REAC:R-MMU-373755	10	45	0.2222	0.0081	10
+Cytochrome P450 - arranged by substrate type	REAC:R-MMU-211897	10	47	0.2128	0.0121	10
+Collagen biosynthesis and modifying enzymes	REAC:R-MMU-1650814	11	57	0.193	0.0129	11
+O-glycosylation of TSR domain-containing proteins	REAC:R-MMU-5173214	8	30	0.2667	0.0134	8
+Integrin cell surface interactions	REAC:R-MMU-216083	11	58	0.1897	0.0153	11
+Cell-Cell communication	REAC:R-MMU-1500931	13	81	0.1605	0.0197	13
+Platelet activation, signaling and aggregation	REAC:R-MMU-76002	24	223	0.1076	0.0202	24
+Axon guidance	REAC:R-MMU-422475	25	241	0.1037	0.0261	25
+Nervous system development	REAC:R-MMU-9675108	25	242	0.1033	0.0279	25
+Phase II - Conjugation of compounds	REAC:R-MMU-156580	13	86	0.1512	0.0374	13
+Developmental Biology	REAC:R-MMU-1266738	32	355	0.0901	0.0421	32
+Metabolism of lipids	REAC:R-MMU-556833	43	534	0.0805	0.0427	43

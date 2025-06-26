@@ -1,0 +1,21 @@
+Pathway_name	Pathway_code	DE_genes	Pathway_size	Fraction_DE	Padj	DE_genes_names
+Breast cancer	KEGG:05224	5	136	0.0368	0	5
+Gastric cancer	KEGG:05226	5	139	0.036	0	5
+MAPK signaling pathway	KEGG:04010	6	281	0.0214	1e-04	6
+Thyroid cancer	KEGG:05216	3	36	0.0833	6e-04	3
+Endometrial cancer	KEGG:05213	3	58	0.0517	0.0027	3
+Hepatocellular carcinoma	KEGG:05225	4	170	0.0235	0.0029	4
+Transcriptional misregulation in cancer	KEGG:05202	4	171	0.0234	0.0029	4
+Basal cell carcinoma	KEGG:05217	3	61	0.0492	0.0031	3
+Melanoma	KEGG:05218	3	64	0.0469	0.0036	3
+Central carbon metabolism in cancer	KEGG:05230	3	65	0.0462	0.0038	3
+KEGG root term	KEGG:00000	20	7475	0.0027	0.0039	20
+Chronic myeloid leukemia	KEGG:05220	3	76	0.0395	0.006	3
+Colorectal cancer	KEGG:05210	3	86	0.0349	0.0087	3
+Small cell lung cancer	KEGG:05222	3	91	0.033	0.0103	3
+NF-kappa B signaling pathway	KEGG:04064	3	91	0.033	0.0103	3
+Pathways in cancer	KEGG:05200	5	500	0.01	0.0173	5
+FoxO signaling pathway	KEGG:04068	3	124	0.0242	0.0255	3
+Signaling pathways regulating pluripotency of stem cells	KEGG:04550	3	128	0.0234	0.028	3
+Hippo signaling pathway	KEGG:04390	3	151	0.0199	0.0452	3
+Cell cycle	KEGG:04110	3	154	0.0195	0.0479	3
