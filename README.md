@@ -55,6 +55,10 @@ PCR_simulation/
   ref_gsea_results <- subset(ref_gsea_results, ref_gsea_results[[6]] < 0.25)
   ```
 
-- **Challenge:** Merging UP and DOWN GSEA tables.  
-  **Cause:** The task specification did not clarify what constitutes UP vs DOWN.  
-  **Solution:** Confirmed with a team member that UP tables contain results with NES > 0, and DOWN tables contain results with NES < 0, and implemented the merge logic accordingly.
+### ✅ 2025-06-26
+- **Goal:** Merge upregulated and downregulated DEGs into unified tables.
+- **Challenge:** The original output displayed UP and DOWN genes in separate tables.
+- **Solution:** Updated the `.Rmd` report logic:
+  - Applied cutoff: `padj < 0.05` and `|log2FC| > log2(1.3)`
+  - Combined filtered UP (logFC > 0) and DOWN (logFC < 0) genes into a single table per contrast.
+  - Added columns: `Direction` ("UP"/"DOWN") and `Comparison` (e.g. "treated vs control in X").

@@ -1,10 +1,10 @@
 producer_class	xtools.gsea.Gsea
-producer_timestamp	1750951397155
+producer_timestamp	1750959318793
 param	zip_report	false
 param	num	100
 param	scoring_scheme	weighted
 param	norm	meandiv
-param	out	/Users/krzysztofmrozik/Desktop/coding_challange/nf_streamlit_small_app/differentialabundance/work/03/b9eacf82840f2b3a073bf931b3784a/.
+param	out	/Users/krzysztofmrozik/Desktop/coding_challange/nf_streamlit_small_app/differentialabundance/work/db/595dd8b18cc6d5a17aec47702b2c64/.
 param	mode	Max_probe
 param	include_only_symbols	true
 param	set_max	500
@@ -15,7 +15,7 @@ param	order	descending
 param	rnd_seed	timestamp
 param	rpt_label	Condition_treatment_Control_Treated.mh.all.v2022.1.Mm.symbols
 param	set_min	15
-param	res	/Users/krzysztofmrozik/Desktop/coding_challange/nf_streamlit_small_app/differentialabundance/work/03/b9eacf82840f2b3a073bf931b3784a/Condition_treatment_Control_Treated.mh.all.v2022.1.Mm.symbols.Condition_treatment_Control_Treated.gct
+param	res	/Users/krzysztofmrozik/Desktop/coding_challange/nf_streamlit_small_app/differentialabundance/work/db/595dd8b18cc6d5a17aec47702b2c64/Condition_treatment_Control_Treated.mh.all.v2022.1.Mm.symbols.Condition_treatment_Control_Treated.gct
 param	chip	Condition_treatment_Control_Treated.mh.all.v2022.1.Mm.symbols.Mus_musculus.anno.feature_metadata.chip
 param	create_svgs	false
 param	cls	Condition_treatment_Control_Treated.mh.all.v2022.1.Mm.symbols.Condition_treatment_Control_Treated.cls#Treated_versus_Control
