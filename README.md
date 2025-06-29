@@ -1,21 +1,22 @@
 # 📓 Development Log – nf-core/differentialabundance Challenge
 
-This log documents my process for developing small NextFlow and streamlit app. This log also includes detailed instructions on how to run the app, both the pipeline and the Streamlit interface. The project included modifying the `nf-core/differentialabundance` pipeline, customizing its output report, and developing a Dockerized Streamlit app for interactive visualization of DESeq2 and GSEA results. The app supports keyword-based search, result filtering, multi-page display, annotation integration, interactive plots, and Docker deployment.
+This log documents development process of the coding challange. It comes with instructions on how to run the app. The project included modifying the `nf-core/differentialabundance` pipeline, customizing its output report, and developing a Dockerized Streamlit app for interactive visualization of DESeq2 and GSEA results.
 
 ---
 
 ## ▶️ Running the Streamlit App
 
-1. There are two components of the application:
+1. There are two components in this repository:
    - The **modified differentialabundance pipeline** (in the `differentialabundance` folder)
    - The **Streamlit web app** for result visualization (in the `streamlit_app` folder)
 
-2. To run the pipeline, use:
+2. To run the NF pipeline, type:
    ```
+   cd differentialabundance
    nextflow run main.nf -profile test_full,docker -outdir &lt;OUTDIR&gt;
    ```
 
-3. This will generate a `report.html` file containing pipeline results with the requested customizations.
+3. This will run a pipeline and as a result it will generate a `report.html` file containing pipeline results.
 
 4. The Streamlit web app is available as a Docker image:
    ```
