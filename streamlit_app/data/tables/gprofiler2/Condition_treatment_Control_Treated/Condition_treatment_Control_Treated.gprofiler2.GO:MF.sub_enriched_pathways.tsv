@@ -1,0 +1,11 @@
+Pathway_name	Pathway_code	DE_genes	Pathway_size	Fraction_DE	Padj	DE_genes_names
+receptor ligand activity	GO:0048018	6	392	0.0153	0.002	6
+signaling receptor activator activity	GO:0030546	6	399	0.015	0.0022	6
+signaling receptor regulator activity	GO:0030545	6	435	0.0138	0.0036	6
+signaling receptor binding	GO:0005102	9	1316	0.0068	0.0055	9
+molecular function regulator activity	GO:0098772	10	1831	0.0055	0.0118	10
+protein tyrosine/threonine phosphatase activity	GO:0008330	2	10	0.2	0.02	2
+MAP kinase tyrosine phosphatase activity	GO:0033550	2	10	0.2	0.02	2
+MAP kinase tyrosine/serine/threonine phosphatase activity	GO:0017017	2	12	0.1667	0.0292	2
+binding	GO:0005488	27	13133	0.0021	0.0336	27
+CXCR chemokine receptor binding	GO:0045236	2	13	0.1538	0.0345	2

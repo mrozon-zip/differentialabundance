@@ -1,0 +1,84 @@
+query	significant	p_value	term_size	query_size	intersection_size	precision	recall	term_id	source	term_name	effective_domain_size	source_order	original_query_size
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0	1900	36	15	0.4167	0.0079	GO:0012501	GO:BP	programmed cell death	30482	4572	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0	1900	36	15	0.4167	0.0079	GO:0008219	GO:BP	cell death	30482	3146	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0	1495	36	13	0.3611	0.0087	GO:0043067	GO:BP	regulation of programmed cell death	30482	10513	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0	602	36	9	0.25	0.015	GO:0043068	GO:BP	positive regulation of programmed cell death	30482	10514	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	1e-04	7760	36	25	0.6944	0.0032	GO:0050896	GO:BP	response to stimulus	30482	13339	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	1e-04	5480	36	21	0.5833	0.0038	GO:0023052	GO:BP	signaling	30482	6640	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	1e-04	5506	36	21	0.5833	0.0038	GO:0007154	GO:BP	cell communication	30482	2718	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	1e-04	1841	36	13	0.3611	0.0071	GO:0006915	GO:BP	apoptotic process	30482	2564	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	2e-04	10489	36	28	0.7778	0.0027	GO:0065007	GO:BP	biological regulation	30482	15890	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	3e-04	9815	36	27	0.75	0.0028	GO:0050794	GO:BP	regulation of cellular process	30482	13262	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	6e-04	586	36	8	0.2222	0.0137	GO:0043065	GO:BP	positive regulation of apoptotic process	30482	10511	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	6e-04	10148	36	27	0.75	0.0027	GO:0050789	GO:BP	regulation of biological process	30482	13258	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.001	1454	36	11	0.3056	0.0076	GO:0042981	GO:BP	regulation of apoptotic process	30482	10465	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0011	5040	36	19	0.5278	0.0038	GO:0007165	GO:BP	signal transduction	30482	2729	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0016	151	36	5	0.1389	0.0331	GO:0071456	GO:BP	cellular response to hypoxia	30482	16690	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0018	6374	36	21	0.5833	0.0033	GO:0051716	GO:BP	cellular response to stimulus	30482	13909	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0018	683	36	8	0.2222	0.0117	GO:0000165	GO:BP	MAPK cascade	30482	55	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0018	3623	36	16	0.4444	0.0044	GO:0042221	GO:BP	response to chemical	30482	10049	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0025	165	36	5	0.1389	0.0303	GO:0036294	GO:BP	cellular response to decreased oxygen levels	30482	9545	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0038	2449	36	13	0.3611	0.0053	GO:0007166	GO:BP	cell surface receptor signaling pathway	30482	2730	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0039	181	36	5	0.1389	0.0276	GO:0071453	GO:BP	cellular response to oxygen levels	30482	16687	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0055	1389	36	10	0.2778	0.0072	GO:2000026	GO:BP	regulation of multicellular organismal development	30482	25389	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0091	5758	36	19	0.5278	0.0033	GO:0048518	GO:BP	positive regulation of biological process	30482	12801	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0096	599	36	7	0.1944	0.0117	GO:0043408	GO:BP	regulation of MAPK cascade	30482	10676	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0108	5823	36	19	0.5278	0.0033	GO:0032502	GO:BP	developmental process	30482	7612	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0109	3629	36	15	0.4167	0.0041	GO:0048583	GO:BP	regulation of response to stimulus	30482	12854	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0126	32	36	3	0.0833	0.0938	GO:1903715	GO:BP	regulation of aerobic respiration	30482	23229	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0146	905	36	8	0.2222	0.0088	GO:0051093	GO:BP	negative regulation of developmental process	30482	13488	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0155	2342	36	12	0.3333	0.0051	GO:0050793	GO:BP	regulation of developmental process	30482	13261	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.021	5479	36	18	0.5	0.0033	GO:0048522	GO:BP	positive regulation of cellular process	30482	12805	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0233	5	36	2	0.0556	0.4	GO:0070949	GO:BP	regulation of neutrophil mediated killing of symbiont cell	30482	16389	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0345	3986	36	15	0.4167	0.0038	GO:0030154	GO:BP	cell differentiation	30482	6687	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0346	3987	36	15	0.4167	0.0038	GO:0048869	GO:BP	cellular developmental process	30482	13112	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0366	287	36	5	0.1389	0.0174	GO:0010721	GO:BP	negative regulation of cell development	30482	4347	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0489	7	36	2	0.0556	0.2857	GO:0070948	GO:BP	regulation of neutrophil mediated cytotoxicity	30482	16388	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.002	392	36	6	0.1667	0.0153	GO:0048018	GO:MF	receptor ligand activity	30482	6728	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0022	399	36	6	0.1667	0.015	GO:0030546	GO:MF	signaling receptor activator activity	30482	3713	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0036	435	36	6	0.1667	0.0138	GO:0030545	GO:MF	signaling receptor regulator activity	30482	3712	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0055	1316	36	9	0.25	0.0068	GO:0005102	GO:MF	signaling receptor binding	30482	1258	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0118	1831	36	10	0.2778	0.0055	GO:0098772	GO:MF	molecular function regulator activity	30482	8575	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.02	10	36	2	0.0556	0.2	GO:0008330	GO:MF	protein tyrosine/threonine phosphatase activity	30482	1639	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.02	10	36	2	0.0556	0.2	GO:0033550	GO:MF	MAP kinase tyrosine phosphatase activity	30482	4365	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0292	12	36	2	0.0556	0.1667	GO:0017017	GO:MF	MAP kinase tyrosine/serine/threonine phosphatase activity	30482	3058	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0336	13133	36	27	0.75	0.0021	GO:0005488	GO:MF	binding	30482	1460	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0345	13	36	2	0.0556	0.1538	GO:0045236	GO:MF	CXCR chemokine receptor binding	30482	5581	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0	136	36	5	0.1389	0.0368	KEGG:05224	KEGG	Breast cancer	30482	475	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0	139	36	5	0.1389	0.036	KEGG:05226	KEGG	Gastric cancer	30482	477	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	1e-04	281	36	6	0.1667	0.0214	KEGG:04010	KEGG	MAPK signaling pathway	30482	243	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	6e-04	36	36	3	0.0833	0.0833	KEGG:05216	KEGG	Thyroid cancer	30482	467	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0027	58	36	3	0.0833	0.0517	KEGG:05213	KEGG	Endometrial cancer	30482	464	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0029	170	36	4	0.1111	0.0235	KEGG:05225	KEGG	Hepatocellular carcinoma	30482	476	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0029	171	36	4	0.1111	0.0234	KEGG:05202	KEGG	Transcriptional misregulation in cancer	30482	454	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0031	61	36	3	0.0833	0.0492	KEGG:05217	KEGG	Basal cell carcinoma	30482	468	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0036	64	36	3	0.0833	0.0469	KEGG:05218	KEGG	Melanoma	30482	469	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0038	65	36	3	0.0833	0.0462	KEGG:05230	KEGG	Central carbon metabolism in cancer	30482	478	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0039	7475	36	20	0.5556	0.0027	KEGG:00000	KEGG	KEGG root term	30482	1	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.006	76	36	3	0.0833	0.0395	KEGG:05220	KEGG	Chronic myeloid leukemia	30482	471	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0087	86	36	3	0.0833	0.0349	KEGG:05210	KEGG	Colorectal cancer	30482	461	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0103	91	36	3	0.0833	0.033	KEGG:05222	KEGG	Small cell lung cancer	30482	473	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0103	91	36	3	0.0833	0.033	KEGG:04064	KEGG	NF-kappa B signaling pathway	30482	256	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0173	500	36	5	0.1389	0.01	KEGG:05200	KEGG	Pathways in cancer	30482	453	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0255	124	36	3	0.0833	0.0242	KEGG:04068	KEGG	FoxO signaling pathway	30482	258	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.028	128	36	3	0.0833	0.0234	KEGG:04550	KEGG	Signaling pathways regulating pluripotency of stem cells	30482	319	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0452	151	36	3	0.0833	0.0199	KEGG:04390	KEGG	Hippo signaling pathway	30482	310	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0479	154	36	3	0.0833	0.0195	KEGG:04110	KEGG	Cell cycle	30482	264	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	5e-04	256	36	6	0.1667	0.0234	TF:M10311	TF	Factor: NF-kappaB1; motif: GGGAAANYCCC	30482	2378	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0022	11020	36	27	0.75	0.0025	TF:M01240_1	TF	Factor: BEN; motif: CAGCGRNV; match class: 1	30482	285	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0029	85	36	4	0.1111	0.0471	TF:M07043_1	TF	Factor: HIF-1alpha; motif: NNACGTGNN; match class: 1	30482	1501	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0037	11296	36	27	0.75	0.0024	TF:M00716_1	TF	Factor: ZF5; motif: GSGCGCGR; match class: 1	30482	3921	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.011	8738	36	23	0.6389	0.0026	TF:M01733	TF	Factor: MZF-1; motif: TGGGGAR	30482	2268	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0158	5610	36	18	0.5	0.0032	TF:M02764	TF	Factor: HNF4-alpha; motif: NNNNMGGGGTCAANNNN	30482	1578	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0206	12217	36	27	0.75	0.0022	TF:M02844	TF	Factor: BCL6B; motif: NNNNCCGCCCCWNNNN	30482	268	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0236	7033	36	20	0.5556	0.0028	TF:M02036	TF	Factor: WT1; motif: CGCCCCCNCN	30482	3836	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0293	1428	36	9	0.25	0.0063	TF:M07356	TF	Factor: HIF2A; motif: ACGTGNNN	30482	1512	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0343	10850	36	25	0.6944	0.0023	TF:M01227	TF	Factor: MafB; motif: GNTGAC	30482	2000	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0368	12554	36	27	0.75	0.0022	TF:M02872	TF	Factor: IRF4; motif: NNNAYTCTCGGWNNN	30482	1780	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0369	8619	36	22	0.6111	0.0026	TF:M08995_1	TF	Factor: CTCF; motif: NAGGGGGCGCNNKNNNN; match class: 1	30482	621	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0408	7966	36	21	0.5833	0.0026	TF:M00115	TF	Factor: Tax/CREB; motif: RTGACGCATAYCCCC	30482	3544	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0441	13549	36	28	0.7778	0.0021	TF:M00716	TF	Factor: ZF5; motif: GSGCGCGR	30482	3920	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0489	8765	36	22	0.6111	0.0025	TF:M09713	TF	Factor: STAT1; motif: NTTTCASTTYCNNTTTCYN	30482	3444	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.003	4024	36	14	0.3889	0.0035	WP:000000	WP	WIKIPATHWAYS	30482	1	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.0115	25	36	2	0.0556	0.08	WP:WP1249	WP	EPO receptor signaling	30482	15	0
+Condition_treatment_Control_Treated.gprofiler2	TRUE	0.023	154	36	3	0.0833	0.0195	WP:WP493	WP	Mapk signaling pathway	30482	167	0

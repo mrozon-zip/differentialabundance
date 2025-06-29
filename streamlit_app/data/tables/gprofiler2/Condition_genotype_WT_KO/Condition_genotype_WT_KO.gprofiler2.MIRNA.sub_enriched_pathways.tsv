@@ -1,0 +1,23 @@
+Pathway_name	Pathway_code	DE_genes	Pathway_size	Fraction_DE	Padj	DE_genes_names
+MIRNA root	MIRNA:000000	557	6830	0.0816	0	557
+mmu-miR-9-5p	MIRNA:mmu-miR-9-5p	50	506	0.0988	0	50
+mmu-miR-466l-5p	MIRNA:mmu-miR-466l-5p	41	379	0.1082	0	41
+mmu-miR-129-5p	MIRNA:mmu-miR-129-5p	38	338	0.1124	0	38
+mmu-miR-466k	MIRNA:mmu-miR-466k	41	382	0.1073	0	41
+mmu-miR-466d-5p	MIRNA:mmu-miR-466d-5p	41	382	0.1073	0	41
+mmu-miR-466i-5p	MIRNA:mmu-miR-466i-5p	41	382	0.1073	0	41
+mmu-let-7b-5p	MIRNA:mmu-let-7b-5p	36	338	0.1065	2e-04	36
+mmu-miR-329-3p	MIRNA:mmu-miR-329-3p	50	559	0.0894	4e-04	50
+mmu-miR-362-3p	MIRNA:mmu-miR-362-3p	50	559	0.0894	4e-04	50
+mmu-miR-466i-3p	MIRNA:mmu-miR-466i-3p	38	387	0.0982	8e-04	38
+mmu-miR-758-3p	MIRNA:mmu-miR-758-3p	28	246	0.1138	9e-04	28
+mmu-miR-344d-3p	MIRNA:mmu-miR-344d-3p	20	144	0.1389	0.0011	20
+mmu-miR-410-3p	MIRNA:mmu-miR-410-3p	20	144	0.1389	0.0011	20
+mmu-miR-344e-3p	MIRNA:mmu-miR-344e-3p	20	144	0.1389	0.0011	20
+mmu-miR-15a-5p	MIRNA:mmu-miR-15a-5p	44	503	0.0875	0.0027	44
+mmu-miR-124-3p	MIRNA:mmu-miR-124-3p	39	433	0.0901	0.0042	39
+mmu-miR-181a-5p	MIRNA:mmu-miR-181a-5p	40	462	0.0866	0.0082	40
+mmu-miR-149-5p	MIRNA:mmu-miR-149-5p	36	411	0.0876	0.0155	36
+mmu-miR-3092-3p	MIRNA:mmu-miR-3092-3p	6	18	0.3333	0.0179	6
+mmu-miR-17-5p	MIRNA:mmu-miR-17-5p	35	402	0.0871	0.0218	35
+mmu-miR-5101	MIRNA:mmu-miR-5101	19	171	0.1111	0.0416	19
